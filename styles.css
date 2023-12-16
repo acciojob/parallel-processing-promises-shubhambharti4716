@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+#download-images-button{
+	width: fit-content;
+	padding: 30px;
+	border: none;
+	font-size: 25px
+	background-color: red;
+	cursor: pointer;
+}
+#download-images-button:hover{
+	background: gray;
+	color: white;
+}
+#output{
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+#output img{
+	margin: 20px;
+	border-radius: 5px;
+}
